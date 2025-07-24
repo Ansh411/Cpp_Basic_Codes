@@ -4,7 +4,8 @@ int main(){
     int n;
     cout<<"Enter n :"<<endl;
     cin>>n;
-    int i=1;
+    // While Loop
+   /* int i=1;
     cout<<"Pattern :"<<endl;
     while(i<=n){
         int j=1;
@@ -15,6 +16,15 @@ int main(){
         }
         cout<<endl;
         i=i+1;
+    }*/
+
+    // For Loop
+
+    for(int i = 1 ; i <= n; i++){
+        for(int j = 1 ; j <= i ; j++){
+            cout << j << ' ';
+        }
+        cout << endl;
     }
 }
 /* 1
